@@ -5,6 +5,10 @@
     box-sizing: border-box;
 }
 
+li{
+    list-style: none;
+}
+
 /* header */
 header{
     position: sticky;
@@ -57,9 +61,19 @@ main{
 /* canzoni */
 
 .categorie{
-    width: 100%;
+    width: 100vw;
     height: 50px;
     background-color: aqua;
+}
+
+.recently{
+    display: flex;
+}
+
+.box{
+    background-color: darkred;
+    width: 200px;
+    height: 200px;
 }
 
 /* footer */
@@ -72,6 +86,10 @@ footer{
 
 .color-white{
     color: white;
+}
+
+.disp-flex{
+    display: flex;
 }
 
 .align-right{
