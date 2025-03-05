@@ -25,7 +25,7 @@ h2{
 
 /* main */
 main{
-    height: calc(100vh - 80px);
+    height: calc(100vh - 120px);
     background-color: rgb(22, 27, 38);
     display: flex;
 }
@@ -200,16 +200,28 @@ header{
     gap: 35px;
 }
 
+.green-line{
+    width: 40%;
+    height: 3px;
+    border-radius: 10px;
+    background-color: greenyellow;
+}
+
 /* card */
 .card{
+    width: calc(100% / 6);
     text-align: center;
+}
+
+.card img{
+    width: 100%;
 }
 
 /* recently */
 .recently{
     display: flex;
-    justify-content: space-between;
     padding-bottom: 50px;
+    gap: 30px;
 }
 
 /* creato per */
@@ -232,6 +244,7 @@ header{
 
 /* footer */
 footer{
+    height: 120px;
     background-color: rgb(40, 40, 40);
     display: flex;
 }
