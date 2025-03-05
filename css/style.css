@@ -199,8 +199,8 @@ header{
     gap: 35px;
 }
 
+/* card */
 .card{
-    width: calc(100% / 6);
     text-align: center;
 }
 
@@ -215,6 +215,7 @@ header{
 .creato-per{
     display: flex;
     padding-bottom: 50px;
+    gap: 30px;
 }
 
 /* popolari */
@@ -225,24 +226,25 @@ header{
 .popolari{
     display: flex;
     padding-bottom: 50px;
+    gap: 30px;
 }
 
 /* footer */
 footer{
-    height: 80px;
     background-color: rgb(40, 40, 40);
     display: flex;
 }
 
-.col25{
+/* col left */
+.col-left{
     width: 25%;
-    padding: 20px 0px 20px 15px;
+    padding: 25px 0px 25px 15px;
     display: flex;
 }
 
-.col25 img{
-    width: 50px;
-    height: 50px;
+.col-left img{
+    width: 60px;
+    height: 60px;
 }
 
 .col-text{
@@ -250,18 +252,20 @@ footer{
     padding-right: 60px;
 }
 
-.col-img{
+.col-icon{
     color: grey;
     font-size: 20px;
 }
 
-.col50{
+/* col mid */
+.col-mid{
     width: 50%;
     text-align: center;
 }
 
 .music-player{
     color: white;
+    padding-top: 10px;
 }
 
 .music-player .fa-solid{
@@ -273,28 +277,60 @@ footer{
 
 .music-player .fa-regular{
     font-size: 35px;
-    padding: 10px 15px 10px 15px;
+    padding: 10px 20px 10px 20px;
     vertical-align: middle;
 }
 
 .music-time{
     display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.music-time span{
+    color: white;
+    font-weight: 700;
 }
 
 .music-line{
-    width: 75%;
+    width: 65%;
     height: 6px;
-    border: 1px solid grey;
     border-radius: 10px;
-    background-color: grey;
+    background-color: rgb(103, 103, 103);
+}
+
+.music-line-mini{
+    width: 20%;
+    height: 6px;
+    border-radius: 10px;
+    background-color: lightgrey;
+}
+
+/* col25 right */
+.col-right{
+    width: 25%;
+    padding: 25px 15px 25px 0px;
+    display: flex;
+    justify-content: end;
+    gap: 20px;
+}
+
+.col-right .fa-solid{
+    color: white;
 }
 
 .volume-line{
     width: 170px;
     height: 6px;
-    border: 1px solid grey;
     border-radius: 10px;
     background-color: grey;
+}
+
+.volume-line-mini{
+    width: 40px;
+    height: 6px;
+    border-radius: 10px;
+    background-color: lightgrey;
 }
 
 /* utiliy */
