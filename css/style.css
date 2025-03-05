@@ -23,6 +23,10 @@ h2{
     font-size: 40px;
 }
 
+.hide-logo{
+    display: none;
+}
+
 /* main */
 main{
     height: calc(100vh - 120px);
@@ -392,7 +396,7 @@ footer{
 }
 
 /* media query */
-@media screen and (max-width: 1200px){
+@media screen and (max-width: 1200px) {
     .card{
         width: 23%;
     }
@@ -402,7 +406,7 @@ footer{
     }
 }
 
-@media screen and (max-width: 990px){
+@media screen and (max-width: 990px) {
     .card{
         width: 48%;
     }
@@ -414,4 +418,8 @@ footer{
     .col-icon{
         flex-direction: column;
     }
+}
+
+@media screen and (max-width: 768px) {
+    
 }
