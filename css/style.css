@@ -36,8 +36,12 @@ main{
     width: 300px;
     padding: 20px 20px 5px 20px;
     background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
+/* top sidebar */
 .logo{
     width: 170px;
     padding-bottom: 30px;
@@ -86,6 +90,10 @@ main{
 }
 
 /* bottom sidebar */
+.bottom-sidebar{
+    padding-bottom: 10px;
+}
+
 .bot-sidebar1{
     padding-bottom: 20px;
 }
@@ -104,22 +112,25 @@ main{
 .bot-sidebar2{
     display: flex;
     text-align: center;
+    padding-top: 20px;
 }
 
-.bot-sidebar2 img{
-    width: 40px;
-}
-
-.bot-sidebar2 .profile-img{
+.profile-img-bg{
     background-color: rgb(67, 67, 67);
     width: 50px;
     height: 50px;
     border-radius: 20px;
 }
 
+.bot-sidebar2 img{
+    width: 40px;
+    padding: 1.5px;
+}
+
 .bot-sidebar2 span{
     font-size: 20px;
     color: white;
+    padding-left: 10px;
 }
 
 /* header */
@@ -158,9 +169,19 @@ header{
     padding: 20px 20px;
 }
 
+.main-content-text{
+    padding-bottom: 30px;
+}
+
+.main-content h2{
+    padding-bottom: 5px;
+}
+
 .main-content h3{
     color: white;
-    padding-bottom: 10px;
+    font-size: 25px;
+    padding-top: 20px;
+    padding-bottom: 15px;
 }
 
 .main-content span{
