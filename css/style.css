@@ -150,7 +150,7 @@ header{
 /* recently */
 .recently{
     display: flex;
-    gap: 20px;
+    justify-content: space-between;
     padding-bottom: 200px;
 }
 
@@ -180,6 +180,70 @@ header{
 footer{
     height: 80px;
     background-color: rgb(40, 40, 40);
+    display: flex;
+}
+
+.col25{
+    width: 25%;
+    padding: 20px 0px 20px 15px;
+    display: flex;
+}
+
+.col25 img{
+    width: 50px;
+    height: 50px;
+}
+
+.col-text{
+    padding-left: 15px;
+    padding-right: 60px;
+}
+
+.col-img{
+    color: grey;
+    font-size: 20px;
+}
+
+.col50{
+    width: 50%;
+    text-align: center;
+}
+
+.music-player{
+    color: white;
+}
+
+.music-player .fa-solid{
+    font-size: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
+    vertical-align: middle;
+}
+
+.music-player .fa-regular{
+    font-size: 35px;
+    padding: 10px 15px 10px 15px;
+    vertical-align: middle;
+}
+
+.music-time{
+    display: flex;
+}
+
+.music-line{
+    width: 75%;
+    height: 6px;
+    border: 1px solid grey;
+    border-radius: 10px;
+    background-color: grey;
+}
+
+.volume-line{
+    width: 170px;
+    height: 6px;
+    border: 1px solid grey;
+    border-radius: 10px;
+    background-color: grey;
 }
 
 /* utiliy */
