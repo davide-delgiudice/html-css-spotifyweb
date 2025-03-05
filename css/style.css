@@ -186,6 +186,7 @@ header{
 
 .main-content span{
     color: grey;
+    font-weight: 600;
 }
 
 .categorie{
@@ -198,33 +199,32 @@ header{
     gap: 35px;
 }
 
+.card{
+    width: calc(100% / 6);
+    text-align: center;
+}
+
 /* recently */
 .recently{
     display: flex;
     justify-content: space-between;
-    padding-bottom: 200px;
-}
-
-.box1{
-    text-align: center;
+    padding-bottom: 50px;
 }
 
 /* creato per */
 .creato-per{
     display: flex;
-    padding-bottom: 200px;
-    gap: 20px;
-}
-
-.box2{
-    text-align: center;
+    padding-bottom: 50px;
 }
 
 /* popolari */
+.popolari .card img{
+    border-radius: 200px;
+}
+
 .popolari{
     display: flex;
-    padding-bottom: 200px;
-    gap: 20px;
+    padding-bottom: 50px;
 }
 
 /* footer */
