@@ -150,7 +150,7 @@ header{
 /* recently */
 .recently{
     display: flex;
-    justify-content: space-between;
+    gap: 20px;
     padding-bottom: 200px;
 }
 
@@ -162,19 +162,18 @@ header{
 .creato-per{
     display: flex;
     padding-bottom: 200px;
-    gap: 140px;
+    gap: 20px;
 }
 
 .box2{
-    background-color: darkred;
-    width: 200px;
-    height: 200px;
-    border: 1px solid black;
+    text-align: center;
 }
 
 /* popolari */
 .popolari{
     display: flex;
+    padding-bottom: 200px;
+    gap: 20px;
 }
 
 /* footer */
