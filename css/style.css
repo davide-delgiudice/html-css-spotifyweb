@@ -187,7 +187,6 @@ header{
 
 .main-content h3{
     color: white;
-    font-size: 25px;
     padding-top: 20px;
     padding-bottom: 15px;
 }
@@ -230,14 +229,14 @@ header{
 .recently{
     display: flex;
     padding-bottom: 50px;
-    gap: 30px;
+    gap: 20px;
 }
 
 /* creato per */
 .creato-per{
     display: flex;
     padding-bottom: 50px;
-    gap: 30px;
+    gap: 20px;
 }
 
 /* popolari */
@@ -248,7 +247,7 @@ header{
 .popolari{
     display: flex;
     padding-bottom: 50px;
-    gap: 30px;
+    gap: 20px;
 }
 
 /* footer */
@@ -272,20 +271,15 @@ footer{
 }
 
 .col-text{
-    padding-left: 15px;
+    padding-left: 10px;
 }
 
 .col-icon{
     color: grey;
     font-size: 20px;
-}
-
-.col-icon .fa-heart{
-    padding-left: 50px;
-}
-
-.col-icon .fa-folder{
-    padding-left: 15px;
+    display: flex;
+    gap: 10px;
+    padding-left: 40px;
 }
 
 /* col mid */
@@ -394,4 +388,15 @@ footer{
 
 .align-right{
     justify-content: end;
+}
+
+/* media query */
+@media screen and (max-width: 1200px) {
+    .card{
+        width: 23%;
+    }
+
+    .recently{
+        flex-wrap: wrap;
+    }
 }
