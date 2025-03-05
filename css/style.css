@@ -112,6 +112,7 @@ main{
 .bot-sidebar2{
     display: flex;
     text-align: center;
+    align-items: center;
     padding-top: 20px;
 }
 
@@ -240,6 +241,7 @@ footer{
     width: 25%;
     padding: 25px 0px 25px 15px;
     display: flex;
+    align-items: center;
 }
 
 .col-left img{
@@ -285,6 +287,7 @@ footer{
     display: flex;
     justify-content: center;
     padding-top: 10px;
+    align-items: center;
 }
 
 .music-time span{
@@ -312,6 +315,7 @@ footer{
     padding: 25px 15px 25px 0px;
     display: flex;
     justify-content: end;
+    align-items: center;
     gap: 20px;
 }
 
@@ -341,6 +345,14 @@ footer{
 
 .color-grey{
     color: grey;
+}
+
+.pad30-r{
+    padding-right: 30px;
+}
+
+.pad30-l{
+    padding-left: 30px;
 }
 
 .bold{
