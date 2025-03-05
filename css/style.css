@@ -70,13 +70,13 @@ main{
     padding-bottom: 20px;
 }
 
-.playlist .fa-square-plus{
+.crea-playlist .fa-square-plus{
     font-size: 50px;
     padding-right: 8px;
     vertical-align: middle;
 }
 
-.playlist span{
+.crea-playlist span{
     font-size: 20px;
     vertical-align: middle;
 }
@@ -99,6 +99,27 @@ main{
     font-size: 20px;
     padding-left: 15px;
     color: grey;
+}
+
+.bot-sidebar2{
+    display: flex;
+    text-align: center;
+}
+
+.bot-sidebar2 img{
+    width: 40px;
+}
+
+.bot-sidebar2 .profile-img{
+    background-color: rgb(67, 67, 67);
+    width: 50px;
+    height: 50px;
+    border-radius: 20px;
+}
+
+.bot-sidebar2 span{
+    font-size: 20px;
+    color: white;
 }
 
 /* header */
