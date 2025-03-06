@@ -329,19 +329,20 @@ footer{
 .music-player{
     color: white;
     padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .music-player .fa-solid{
     font-size: 20px;
     padding-right: 10px;
     padding-left: 10px;
-    vertical-align: middle;
 }
 
 .music-player .fa-regular{
     font-size: 35px;
     padding: 10px 20px 10px 20px;
-    vertical-align: middle;
 }
 
 .music-time{
