@@ -496,6 +496,22 @@ footer{
     .hide{
         display: none;
     }
+
+    .fa-shuffle{
+        display: none;
+    }
+
+    .fa-rotate-right{
+        display: none;
+    }
+
+    .fa-list{
+        display: none;
+    }
+
+    .fa-display{
+        display: none;
+    }
 }
 
 /* hover */
