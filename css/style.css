@@ -27,6 +27,13 @@ h2{
     display: none;
 }
 
+.hide-home{
+    display: none;
+}
+
+.show-home{
+    display: block;
+}
 /* main */
 main{
     height: calc(100vh - 120px);
@@ -38,7 +45,6 @@ main{
 #sidebar{
     height: 100%;
     width: 300px;
-    padding: 20px 20px 5px 20px;
     background-color: black;
     display: flex;
     flex-direction: column;
@@ -47,20 +53,27 @@ main{
 
 /* top sidebar */
 .logo{
-    width: 170px;
-    padding-bottom: 30px;
+    width: 180px;
+    padding: 20px 20px 25px 20px;
 }
 
 /* personal */
 .personal{
-    padding-bottom: 30px;
+    padding-bottom: 25px;
+}
+
+.personal li .show-home{
+    padding-left: 15px;
+}
+
+.personal li{
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .border-green{
-    border-left: 5px solid greenyellow;
-    position: relative;
+    border-left: 5px solid rgb(171, 255, 46);
     right: 20px;
-    padding-left: 15px;
 }
 
 .personal li img{
@@ -71,10 +84,14 @@ main{
 
 .personal li span{
     padding-left: 5px;
-    vertical-align: middle;
 }
 
 /* playlist */
+.playlist{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
 .playlist h3{
     font-size: 20px;
     padding-bottom: 15px;
@@ -102,7 +119,7 @@ main{
 
 /* bottom sidebar */
 .bottom-sidebar{
-    padding-bottom: 10px;
+    padding: 0px 20px 10px 20px;
 }
 
 .bot-sidebar1{
@@ -211,14 +228,10 @@ header{
     gap: 35px;
 }
 
-/* .green-underline{
-    width: 40%;
-    height: 3px;
-    border-radius: 10px;
-    background-color: greenyellow;
-    position: relative;
-    left: 30px;
-} */
+.green-underline{
+    text-decoration: underline;
+    text-decoration-color: greenyellow;
+}
 
 /* card */
 .card{
@@ -436,6 +449,14 @@ footer{
 
     .content{
         width: calc(100% - 70px);
+    }
+
+    .show-home{
+        display: none;
+    }
+
+    .hide-home{
+        display: block;
     }
 
     .hide{
