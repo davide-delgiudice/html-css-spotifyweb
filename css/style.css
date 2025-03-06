@@ -123,12 +123,13 @@ main{
 }
 
 .bot-sidebar1{
-    padding-bottom: 20px;
+    padding-bottom: 15px;
+    display: flex;
+    text-align: left;
 }
 
 .bot-sidebar1 img{
     width: 30px;
-    float: left;
 }
 
 .bot-sidebar1 span{
@@ -139,9 +140,7 @@ main{
 
 .bot-sidebar2{
     display: flex;
-    text-align: center;
-    align-items: center;
-    padding-top: 20px;
+    padding-top: 15px;
 }
 
 .bot-sidebar2 img{
@@ -154,7 +153,7 @@ main{
 .bot-sidebar2 span{
     font-size: 20px;
     color: white;
-    padding-left: 10px;
+    padding-left: 15px;
 }
 
 /* header */
@@ -292,7 +291,7 @@ footer{
     font-size: 20px;
     display: flex;
     gap: 10px;
-    padding-left: 40px;
+    padding-left: 50px;
 }
 
 /* col mid */
@@ -332,6 +331,8 @@ footer{
 }
 
 .music-line{
+    display: flex;
+    align-items: center;
     width: 45%;
     height: 6px;
     border-radius: 10px;
@@ -343,6 +344,14 @@ footer{
     height: 6px;
     border-radius: 10px;
     background-color: lightgrey;
+}
+
+.white-dot{
+    width: 20px;
+    height: 20px;
+    border-radius: 30px;
+    background-color: white;
+    display: none;
 }
 
 /* col25 right */
@@ -360,6 +369,8 @@ footer{
 }
 
 .volume-line{
+    display: flex;
+    align-items: center;
     width: 170px;
     height: 6px;
     border-radius: 10px;
@@ -436,7 +447,7 @@ footer{
     .logo{
         width: 40px;
         padding: 0px;
-        margin: 20px 0px 20px 0px;
+        margin: 20px 0px 20px 15px;
     }
 
     #sidebar{
@@ -458,4 +469,51 @@ footer{
     .hide{
         display: none;
     }
+}
+
+/* hover */
+
+.personal li span:hover{
+    color:white;
+}
+
+.crea-playlist:hover{
+    color: white;
+}
+
+.playlist li:hover{
+    color: white;
+}
+
+.bot-sidebar1 span:hover{
+    color: white;
+}
+
+.col-text span:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+.col-icon i:hover{
+    color: white;
+}
+
+.music-player .fa-circle-play:hover{
+    transform: scale(1.2);
+}
+
+.music-line:hover .music-line-mini{
+    background-color: greenyellow;
+}
+
+.music-line:hover .white-dot{
+    display: flex;
+}
+
+.volume-line:hover .volume-line-mini{
+    background-color: greenyellow;
+}
+
+.volume-line:hover .white-dot{
+    display: flex;
 }
