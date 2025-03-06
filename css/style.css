@@ -162,6 +162,7 @@ header{
     height: 100px;
     background-color: rgb(15, 20, 34);
     top: 0;
+    z-index: 1;
 }
 
 .right{
@@ -293,6 +294,8 @@ footer{
     height: 120px;
     background-color: rgb(40, 40, 40);
     display: flex;
+    position: relative;
+    z-index: 1;
 }
 
 /* col left */
