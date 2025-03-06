@@ -289,7 +289,7 @@ footer{
 
 /* col mid */
 .col-mid{
-    width: 60%;
+    width: 100%;
     text-align: center;
 }
 
@@ -324,7 +324,7 @@ footer{
 }
 
 .music-line{
-    width: 65%;
+    width: 45%;
     height: 6px;
     border-radius: 10px;
     background-color: rgb(103, 103, 103);
@@ -340,7 +340,7 @@ footer{
 /* col25 right */
 .col-right{
     width: 250px;
-    padding: 25px 15px 25px 0px;
+    padding: 25px 10px 25px 0px;
     display: flex;
     justify-content: end;
     align-items: center;
@@ -375,12 +375,12 @@ footer{
     color: grey;
 }
 
-.pad30-r{
-    padding-right: 30px;
+.pad20-r{
+    padding-right: 20px;
 }
 
-.pad30-l{
-    padding-left: 30px;
+.pad20-l{
+    padding-left: 20px;
 }
 
 .bold{
@@ -421,5 +421,24 @@ footer{
 }
 
 @media screen and (max-width: 768px) {
-    
+    .hide-logo{
+        display: block;
+    }
+
+    .logo{
+        width: 40px;
+        padding-bottom: 15px;
+    }
+
+    #sidebar{
+        width: 70px;
+    }
+
+    .content{
+        width: calc(100% - 70px);
+    }
+
+    .hide{
+        display: none;
+    }
 }
